@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p13</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            position: fixed;
+            top: 35%;
+            left: 50%;
+            transform: rotate(-90deg);
+            border-bottom: solid rgb(255, 0, 0) 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ol{
+            list-style: none;
+            position: fixed;
+            top: 30%;
+            left: 20%;
+            transform: rotate(-35deg);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul{
+            list-style: none;
+            position: fixed;
+            top: 50%;
+            right: 20%;
+            transform: rotate(35deg);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Any{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        .Escola{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        .circulo{
+            position: fixed;
+            z-index: -5;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 100px;
+            animation-name: movcirculo;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes movcirculo {
+            0% {
+                top: 0%;
+                left: 0%;
+            }
+            20%{
+                top:85%;
+                left: 15%;
+                transform: rotate(-40deg);
+            }
+            40%{
+                top: 60%;
+                left: 89%;
+                transform: rotate(-90deg);
+            }
+            60%{
+                top: 10%;
+                left: 60%;
+                transform: rotate(-150deg);
+            }
+            80%{
+                top: 45%;
+                left: 37%;
+                transform: rotate(-270deg);
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO 2ºTrimestre</h1>
+        <h2>Inés Fuentes</h2>
+    </header>
+    <main>
+        <ol>
+            <li> Figma</li>
+            <li><a href="https://www.figma.com/file/Y9NYcI39GGiEU4pCkG3RmJ/portfolio?t=s4lZoQtGtisgzZeS-1">Portfolio</a></li>
+            <li><a href="https://www.figma.com/file/9PuepJg2oY0nAnQnpmYXmd/p6_galeria?node-id=0%3A1&t=s4lZoQtGtisgzZeS-1">P6_gallery</a></li>
+            <li><a href="https://www.figma.com/file/goJGocXd6aZEOnObnENNBt/p7_componentes?node-id=0%3A1&t=s4lZoQtGtisgzZeS-1">P7_Componentes</a></li>
+            <li><a href="https://www.figma.com/file/JAZuOPL1qq98IYO5Lot3eW/Web-layout?t=s4lZoQtGtisgzZeS-1">P8_WebLayout</a></li>
+            <li><a href="https://www.figma.com/file/bSJyegmt9sTdMa2Xz6Vqdm/p8_cocinaperuana?t=s4lZoQtGtisgzZeS-1">Cuina</a></li>
+        </ol>
+        <ul>
+            <li>Html/CSS</li>
+            <li><a href="https://lylyam.github.io/Portfolio-ines/">Portfolio</a></li>
+            <li><a href="https://lylyam.github.io/p6/">P6_Gallery</a></li>
+            <li><a href="https://lylyam.github.io/p8_weblayout/">P8_Weblayout</a></li>
+        </ul>
+    </main>
+    <footer>
+        <h3 class="Any">2022-2023</h3>
+        <h3 class="Escola">EASD Alcoi</h3>
+    </footer>
+    <div class="circulo">
+        <img src="img/circle.webp" alt="">
+    </div>
+
+</body>
+</html>
